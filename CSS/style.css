@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background: url('images/back.jpg');
+    
+    
+}
+.land{
+    height:100vh;
+    width:100vw;
+    background:black;
+    position:absolute;
+    z-index: 2;
+}
+.nav{
+    border: 1px solid white;
+    
+    
+}
+.nav h1{
+    margin:20px 40px;
+    position:relative;
+    left:35px;
+
+}
+.nav h2{
+    position:absolute;
+    top:27px;
+    right:25px;
+    font-size:20px;
+    
+}
+.nav ion-icon{
+    position: absolute;
+    top:12px;
+    left:17px;
+    font-size: 60px;
+    color:green;
+    cursor: pointer;
+    
+}
+.text{
+    margin-top:150px;
+    margin-left:10px;
+}
+.text h2{
+    margin-bottom:10px;
+    font-size:40px;
+}
+.text p{
+    line-height:40px;
+    font-size:22px;
+    width:50%;
+}
+
+.button {
+    margin-right: 30px;
+    margin-top:20px;
+    position: relative;
+    left:10px;
+    top:20px;
+    margin-bottom:20px;
+}
+#first,
+#second{
+    width:180px;
+    height:50px;
+    background:none;
+    letter-spacing:4px;
+    margin:5px 10px;
+    font-weight: 300;
+    border: .3pt solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    
+    
+}
+#first:hover{
+    background:rgb(107, 107, 102);
+}
+
+
+#second:hover{
+    background:rgb(107, 107, 102);
+    
+    
+}
+.copyright{
+    
+    position:relative;
+    top:70px;
+    font-size:25px;
+    color:rgb(160, 140, 197)
+    
+}
+.media{
+    position:fixed;
+    top:40%;
+    right:50px;
+    
+}
+.media ul{
+    list-style: none;
+
+    font-size: 30px;;
+}
+.media  ul li{
+   padding:5px 0; 
+   cursor: pointer;
+   
+}
+.media  ul li a ion-icon:hover{
+    color:#f5ad42;
+    padding-right: 5px;
+    transition: all 0.3s ease;
+}
+.event{
+    width:80%;
+    font-size: 15px;
+    margin-top:50px;
+    align-items: center;
+    display:none;
+    padding-left:20px;
+    
+}
+.event p{
+    position:relative;
+    line-height:40px;
+    font-size:20px;
+    width:70%
+    
+    
+}
+#firstt{
+    width:180px;
+    height:50px;
+    background:none;
+    letter-spacing:4px;
+    margin:10px 10px;
+    font-weight: 400;
+    border: .3pt solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    background:linear-gradient(135deg, rgb(106, 219, 157) 0%, rgb(23, 167, 88) 100%);
+}
+.notification{
+    
+    
+    font-weight: 400px;
+    display:none;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    font-size:30px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom:90px;
+    left:20px;
+    width:65%;
+    
+    
+}
+.notification h3{
+    font-size: 30px;
+    margin-left:1px;
+    position: relative;
+    top:50px;
+}
+.notification h4{
+    font-size: 25px;
+    margin-left:1px;
+    margin-top: 40px;
+    position:relative;
+    top:65px;
+}
+.notification ul{
+    position: relative;
+    top:35px;
+    margin-top:20px;
+    margin-left:40px;
+}
+.notification ul li{
+    position: relative;
+    top:20px;
+    font-size: 20px;
+    margin-top:15px;
+    
+}
