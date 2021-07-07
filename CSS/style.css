@@ -170,3 +170,15 @@ body {
   font-size: 20px;
   margin-top: 15px;
 }
+@media only screen and (max-width: 768px) {
+  .nav ion-icon {
+    left: 0px;
+  }
+  .nav h2 {
+    right: 2px;
+  }
+  .nav h1 {
+    position: relative;
+    left: 15px;
+  }
+}
